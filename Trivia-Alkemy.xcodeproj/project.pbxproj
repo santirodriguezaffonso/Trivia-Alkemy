@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A2DDCDA77A3A36A39C6A634 /* Pods_Trivia_Alkemy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0D0B4D1F833DDA7CF7E0E7 /* Pods_Trivia_Alkemy.framework */; };
 		A23518D728366CA600BFD1E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23518D628366CA600BFD1E7 /* AppDelegate.swift */; };
 		A23518D928366CA600BFD1E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23518D828366CA600BFD1E7 /* SceneDelegate.swift */; };
 		A23518DB28366CA600BFD1E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23518DA28366CA600BFD1E7 /* ViewController.swift */; };
-		A23518DE28366CA600BFD1E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23518DC28366CA600BFD1E7 /* Main.storyboard */; };
 		A23518E028366CAD00BFD1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23518DF28366CAD00BFD1E7 /* Assets.xcassets */; };
 		A23518E328366CAD00BFD1E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23518E128366CAD00BFD1E7 /* LaunchScreen.storyboard */; };
+		A23518EC28366DB200BFD1E7 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23518EA28366DB200BFD1E7 /* InitialViewController.swift */; };
+		A23518ED28366DB200BFD1E7 /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23518EB28366DB200BFD1E7 /* InitialViewController.xib */; };
+		A2A6FFCB283684AC00AE73DA /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A6FFC9283684AC00AE73DA /* QuestionViewController.swift */; };
+		A2A6FFCC283684AC00AE73DA /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2A6FFCA283684AC00AE73DA /* QuestionViewController.xib */; };
+		A2A6FFCF28368EEA00AE73DA /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A6FFCE28368EEA00AE73DA /* TabBarViewController.swift */; };
+		A2A6FFD228368FFB00AE73DA /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A6FFD028368FFB00AE73DA /* CategoriesViewController.swift */; };
+		A2A6FFD328368FFB00AE73DA /* CategoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2A6FFD128368FFB00AE73DA /* CategoriesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C0D0B4D1F833DDA7CF7E0E7 /* Pods_Trivia_Alkemy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trivia_Alkemy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F669CA3C3F1203FD8D7947 /* Pods-Trivia-Alkemy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia-Alkemy.release.xcconfig"; path = "Target Support Files/Pods-Trivia-Alkemy/Pods-Trivia-Alkemy.release.xcconfig"; sourceTree = "<group>"; };
 		A23518D328366CA600BFD1E7 /* Trivia-Alkemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trivia-Alkemy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23518D628366CA600BFD1E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A23518D828366CA600BFD1E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A23518DA28366CA600BFD1E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A23518DD28366CA600BFD1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A23518DF28366CAD00BFD1E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A23518E228366CAD00BFD1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A23518E428366CAD00BFD1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23518EA28366DB200BFD1E7 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		A23518EB28366DB200BFD1E7 /* InitialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
+		A2A6FFC9283684AC00AE73DA /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		A2A6FFCA283684AC00AE73DA /* QuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+		A2A6FFCE28368EEA00AE73DA /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		A2A6FFD028368FFB00AE73DA /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		A2A6FFD128368FFB00AE73DA /* CategoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesViewController.xib; sourceTree = "<group>"; };
+		DF151E98480E7A75C06EC8A2 /* Pods-Trivia-Alkemy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trivia-Alkemy.debug.xcconfig"; path = "Target Support Files/Pods-Trivia-Alkemy/Pods-Trivia-Alkemy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2DDCDA77A3A36A39C6A634 /* Pods_Trivia_Alkemy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5627EFCD217342188B589749 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C0D0B4D1F833DDA7CF7E0E7 /* Pods_Trivia_Alkemy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A23518CA28366CA600BFD1E7 = {
 			isa = PBXGroup;
 			children = (
 				A23518D528366CA600BFD1E7 /* Trivia-Alkemy */,
 				A23518D428366CA600BFD1E7 /* Products */,
+				AAB7C9DB0389B1A712B4A6B4 /* Pods */,
+				5627EFCD217342188B589749 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,47 @@
 		A23518D528366CA600BFD1E7 /* Trivia-Alkemy */ = {
 			isa = PBXGroup;
 			children = (
+				A23518EE28366DBD00BFD1E7 /* Views */,
+				A2A6FFCD28368EA900AE73DA /* Controllers */,
 				A23518D628366CA600BFD1E7 /* AppDelegate.swift */,
 				A23518D828366CA600BFD1E7 /* SceneDelegate.swift */,
 				A23518DA28366CA600BFD1E7 /* ViewController.swift */,
-				A23518DC28366CA600BFD1E7 /* Main.storyboard */,
 				A23518DF28366CAD00BFD1E7 /* Assets.xcassets */,
 				A23518E128366CAD00BFD1E7 /* LaunchScreen.storyboard */,
 				A23518E428366CAD00BFD1E7 /* Info.plist */,
 			);
 			path = "Trivia-Alkemy";
+			sourceTree = "<group>";
+		};
+		A23518EE28366DBD00BFD1E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A23518EA28366DB200BFD1E7 /* InitialViewController.swift */,
+				A23518EB28366DB200BFD1E7 /* InitialViewController.xib */,
+				A2A6FFC9283684AC00AE73DA /* QuestionViewController.swift */,
+				A2A6FFCA283684AC00AE73DA /* QuestionViewController.xib */,
+				A2A6FFD028368FFB00AE73DA /* CategoriesViewController.swift */,
+				A2A6FFD128368FFB00AE73DA /* CategoriesViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2A6FFCD28368EA900AE73DA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FFCE28368EEA00AE73DA /* TabBarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AAB7C9DB0389B1A712B4A6B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF151E98480E7A75C06EC8A2 /* Pods-Trivia-Alkemy.debug.xcconfig */,
+				44F669CA3C3F1203FD8D7947 /* Pods-Trivia-Alkemy.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A23518E728366CAD00BFD1E7 /* Build configuration list for PBXNativeTarget "Trivia-Alkemy" */;
 			buildPhases = (
+				68F1601491CF1E3AE8E3AFB3 /* [CP] Check Pods Manifest.lock */,
 				A23518CF28366CA600BFD1E7 /* Sources */,
 				A23518D028366CA600BFD1E7 /* Frameworks */,
 				A23518D128366CA600BFD1E7 /* Resources */,
+				E53B68293EF17CE59E3039C6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +188,55 @@
 			files = (
 				A23518E328366CAD00BFD1E7 /* LaunchScreen.storyboard in Resources */,
 				A23518E028366CAD00BFD1E7 /* Assets.xcassets in Resources */,
-				A23518DE28366CA600BFD1E7 /* Main.storyboard in Resources */,
+				A2A6FFD328368FFB00AE73DA /* CategoriesViewController.xib in Resources */,
+				A2A6FFCC283684AC00AE73DA /* QuestionViewController.xib in Resources */,
+				A23518ED28366DB200BFD1E7 /* InitialViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68F1601491CF1E3AE8E3AFB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trivia-Alkemy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E53B68293EF17CE59E3039C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trivia-Alkemy/Pods-Trivia-Alkemy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trivia-Alkemy/Pods-Trivia-Alkemy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trivia-Alkemy/Pods-Trivia-Alkemy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A23518CF28366CA600BFD1E7 /* Sources */ = {
@@ -139,22 +244,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A23518DB28366CA600BFD1E7 /* ViewController.swift in Sources */,
+				A2A6FFCB283684AC00AE73DA /* QuestionViewController.swift in Sources */,
 				A23518D728366CA600BFD1E7 /* AppDelegate.swift in Sources */,
 				A23518D928366CA600BFD1E7 /* SceneDelegate.swift in Sources */,
+				A2A6FFCF28368EEA00AE73DA /* TabBarViewController.swift in Sources */,
+				A2A6FFD228368FFB00AE73DA /* CategoriesViewController.swift in Sources */,
+				A23518EC28366DB200BFD1E7 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A23518DC28366CA600BFD1E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A23518DD28366CA600BFD1E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A23518E128366CAD00BFD1E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +383,7 @@
 		};
 		A23518E828366CAD00BFD1E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF151E98480E7A75C06EC8A2 /* Pods-Trivia-Alkemy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,9 +392,9 @@
 				DEVELOPMENT_TEAM = TWCA54VAW5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Trivia-Alkemy/Info.plist";
+				INFOPLIST_KEY_NSMainNibFile = InitialViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +412,7 @@
 		};
 		A23518E928366CAD00BFD1E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F669CA3C3F1203FD8D7947 /* Pods-Trivia-Alkemy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,9 +421,9 @@
 				DEVELOPMENT_TEAM = TWCA54VAW5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Trivia-Alkemy/Info.plist";
+				INFOPLIST_KEY_NSMainNibFile = InitialViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
